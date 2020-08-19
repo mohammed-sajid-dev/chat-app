@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(176, 164, 226) , rgb(59, 39, 104));
+
+}
+
+.header{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin: 2px 478px;
+}
+
+
+
+.head{
+
+    margin:auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+
+}
+
+#message-container{
+    margin-top: 0px;
+    max-width: 600px;
+    border: 2px groove black;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    border-radius: 12px;
+    overflow-y: auto;
+
+}
+
+#message-container div{
+    background-color: rgb(191, 191, 233);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.left{
+    display: block;
+    float: left;
+    clear: both;
+}
+
+.right{
+    display: block;
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#message-input{
+    margin-top: 5px;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+
+}
+
+#btn{
+    cursor: pointer;
+    border: 2px solid black ;
+    border-radius: 6px;
+    height: 34px;
+
+}
